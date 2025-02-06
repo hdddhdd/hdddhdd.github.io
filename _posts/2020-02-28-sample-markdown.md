@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [논문 리뷰] 아직안정햇어요. ᖛ ̫ ᖛ
+title: "[논문 리뷰] 아직안정햇어요. ᖛ ̫ ᖛ"
 subtitle: There's lots to learn!
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
