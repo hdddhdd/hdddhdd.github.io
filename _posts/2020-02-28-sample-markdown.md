@@ -1,13 +1,12 @@
 ---
-layout: post
-title: Sample blog post to learn markdown tips
-subtitle: There's lots to learn!
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [test]
-comments: true
-mathjax: true
-author: Bill Smith
+layout: single
+title: "[github.io] 블로그 구글 검색 등록하기(SEO 설정)"
+date: 2023-03-12 15:00:00
+last_modified_at: 2023-03-12 15:00:00
+catagories: blog
+sitemap:
+  changefreq: weekly
+  priority: 0.5
 ---
 
 {: .box-success}
