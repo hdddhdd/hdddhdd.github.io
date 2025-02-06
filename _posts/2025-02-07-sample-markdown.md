@@ -1,11 +1,13 @@
 ---
-layout: single
+layout: post
 title: "[논문 리뷰] 아직안정햇어요. ᖛ ̫ ᖛ "
-date: 2025-02-07 02:45:00
-last_modified_at: 2025-02-07 02:45:00
-catagories: blog
-sitemap:
-  changefreq: weekly
-  priority: 0.5
+subtitle: There's lots to learn!
+gh-repo: daattali/beautiful-jekyll
+gh-badge: [star, fork, follow]
+tags: [test]
+comments: true
+mathjax: true
+author: Bill Smith
 ---
+
 이렇게 올리는건가봐요 ! +_+
