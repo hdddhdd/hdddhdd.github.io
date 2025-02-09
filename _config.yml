@@ -142,10 +142,10 @@ hover-col: "#FF1493"
 navbar-col: "#212529"   # nav바 어두운 네이비/블랙
 navbar-text-col: "#F8F9FA"  # 흰색 텍스트
 navbar-border-col: "#343A40"  # 어두운 테두리
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
+footer-col: "#212529"
+footer-text-col: "#F8F9FA"
 footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+footer-hover-col: "#FF1493"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
