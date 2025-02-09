@@ -6,7 +6,7 @@ subtitle: # DL # Autonomous_Driving # Computer_Vision
 
 <div class="about-container text-center">
   <!-- 프로필 이미지 -->
-  <img src="/assets/images/profile_real.jpg" alt="Profile Image" class="profile-img">
+  <img src="/assets/img/profile_real.jpg" alt="Profile Image" class="profile-img">
 
   <!-- 기본 정보 -->
   <h1>최희정</h1>
