@@ -31,7 +31,9 @@ subtitle: # DL # Autonomous_Driving # Computer_Vision
 
 ## 🛠 Tech Stack
 💻 Deep Learning: TensorFlow, PyTorch, OpenCV  
+
 🚗 Autonomous Driving: LiDAR Processing (KITTI)
+
 🛠 Development: Python, C++, Linux  
 
 ---
