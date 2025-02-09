@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "[논문 리뷰] 아직안정햇어요. ᖛ ̫ ᖛ"
-subtitle: There's lots to learn!
-gh-repo: daattali/beautiful-jekyll
+title: "[논문 리뷰] Good Teachers Explain: Explanation-Enhanced Knowledge Distillation(ECCV 2024)"
+subtitle: 2D Object Detection, Explainable AI(XAI)
+gh-repo: m-parchami/GoodTeachersExplain
 gh-badge: [star, fork, follow]
 tags: [test]
 comments: true
 mathjax: true
-author: Bill Smith
+author: Heejung Choi
 ---
 
 
