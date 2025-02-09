@@ -138,7 +138,7 @@ navbar-var-length: false
 page-col: "#FFFFFF"
 text-col: "#404040"
 link-col: "#008AFF"
-hover-col: "#f8f9fa"
+hover-col: "#FF1493"
 navbar-col: "#212529"   # nav바 어두운 네이비/블랙
 navbar-text-col: "#F8F9FA"  # 흰색 텍스트
 navbar-border-col: "#343A40"  # 어두운 테두리
