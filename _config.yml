@@ -138,9 +138,9 @@ page-col: "#FFFFFF"
 text-col: "#404040"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
+navbar-col: "#212529"   # nav바 어두운 네이비/블랙
+navbar-text-col: "#F8F9FA"  # 흰색 텍스트
+navbar-border-col: "#343A40"  # 어두운 테두리
 footer-col: "#EAEAEA"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
