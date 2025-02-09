@@ -32,7 +32,7 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/profile.jpg"
+avatar: "/assets/img/profile.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -137,7 +137,7 @@ navbar-var-length: false
 page-col: "#FFFFFF"
 text-col: "#404040"
 link-col: "#008AFF"
-hover-col: "#0085A1"
+hover-col: "#0018a1"
 navbar-col: "#212529"   # nav바 어두운 네이비/블랙
 navbar-text-col: "#F8F9FA"  # 흰색 텍스트
 navbar-border-col: "#343A40"  # 어두운 테두리
