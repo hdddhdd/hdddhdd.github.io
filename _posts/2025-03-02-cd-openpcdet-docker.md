@@ -40,7 +40,6 @@ sudo docker run --gpus '"device=1"' -it --name openpcdet_gpu1 nvidia/cuda:12.1.0
 이렇게 실행하면 됩니다요 
 
 [에러]
-{: .box-note}
 docker: Error response from daemon: could not select device driver "" with capabilities: [[gpu]]. 
 
 [해결방법]
@@ -83,13 +82,11 @@ python -m pcdet.datasets.kitti.kitti_dataset create_kitti_infos tools/cfgs/datas
 ```
 
 [에러]
-{: .box-note}
 ImportError: libGL.so.1: cannot open shared object file: No such file or directory
 
 [해결방법] apt-get install -y libgl1-mesa-glx  
 
 [에러] 
-{: .box-note}
 ImportError: libgthread-2.0.so.0: cannot open shared object file: No such file or directory
 
 [해결방법] apt-get install libglib2.0-0
