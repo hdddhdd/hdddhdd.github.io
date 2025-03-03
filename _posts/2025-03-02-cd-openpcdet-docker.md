@@ -57,6 +57,10 @@ sudo systemctl restart docker
 
 ## OpenPCDet을 실행하기 위해 이것들을 설치해야 합니다!
 먼저 가상환경을 만들고, 필요한 패키지를 설치합시닷
+아 그 전에 클론 해오셔야 해요!
+```bash
+git clone https://github.com/open-mmlab/OpenPCDet.git
+```
 
 ```bash
 apt-get update
