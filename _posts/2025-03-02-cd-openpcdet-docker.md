@@ -93,6 +93,9 @@ ImportError: libgthread-2.0.so.0: cannot open shared object file: No such file o
 
 ## 모델 학습
 예시는 pointpillar 모델로 들어보겠습니다!
+```bash
+python train.py --cfg_file cfgs/kitti_models/pointpillar.yaml --workers [worker 개수] --epochs [학습 epoch 수] --extra_tag [별도로 붙일 tag이름, 필수 아님] --batch_size [batch size]
+```
 
 아주 쉽죠? 
 
@@ -102,9 +105,6 @@ Openpcdet에서 지원하는 모델이라면 cfg 파일만 다르게 줘서 학�
 
 extra_tag는 학습을 다양하게 시킬 경우에, 예를 들어서 같은 모델을 학습시켜도 코드를 수정해서 다양하게 학습시키는 경우 등에서 학습한 결과 파일을 구분할 때 좋으니까 필요한 경우에는 extra_tag를 달아주는 것을 추천 와바박 드립니다.
 
-```bash
-python train.py --cfg_file cfgs/kitti_models/pointpillar.yaml --workers [worker 개수] --epochs [학습 epoch 수] --extra_tag [별도로 붙일 tag이름, 필수 아님] --batch_size [batch size]
-```
 이 외에도 많은 옵션이 있으니까 train.py에서 확인해보십시오!
 
 예를 들면, --max_ckpt_save_num은 default로 30으로 설정되어 있는데, 이 옵션은 최대 몇개의 ckpt(.pth)파일을 저장할 수 있게할지 정하는 옵션입니다! 30으로 두면 만약 80epoch 학습시킬 경우에 51부터 80번째까지밖에 저장이 안됩니다! 원하는 만큼 옵션으로 정해놓는게 좋겠죠?!
