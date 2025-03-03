@@ -40,4 +40,17 @@ sudo docker run --gpus '"device=1"' -it --name openpcdet_gpu1 nvidia/cuda:12.1.0
 이렇게 실행하면 된다 :>
 
 {: .box-note}
-**에러:** docker: Error response from daemon: could not select device driver "" with capabilities: [[gpu]].
+[에러] docker: Error response from daemon: could not select device driver "" with capabilities: [[gpu]]. 
+
+[해결방법]
+```
+# nvidia-container-toolkit 설치
+distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \
+   && curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add - \
+   && curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+   
+sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit
+
+# 도커 재시작
+sudo systemctl restart docker
+```
